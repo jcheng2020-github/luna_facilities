@@ -1,8 +1,8 @@
 from __future__ import annotations
 from dataclasses import dataclass, field
 from typing import Dict
-from luna_ops.core.unit import Unit
-from luna_ops.core.snapshot import Snapshot
+from luna_facilities.core.unit import Unit
+from luna_facilities.core.snapshot import Snapshot
 
 @dataclass
 class SystemCounter(Unit):

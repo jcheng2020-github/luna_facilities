@@ -3,11 +3,11 @@ from dataclasses import dataclass, field
 from typing import Dict, Any, Tuple
 import random
 
-from luna_ops.core.snapshot import Snapshot
-from luna_ops.system.actor_actions import Action
-from luna_ops.system.config import SimConfig
-from luna_ops.system.counter import SystemCounter
-from luna_ops.system.cost import CostModel
+from luna_facilities.core.snapshot import Snapshot
+from luna_facilities.system.actor_actions import Action
+from luna_facilities.system.config import SimConfig
+from luna_facilities.system.counter import SystemCounter
+from luna_facilities.system.cost import CostModel
 
 @dataclass
 class Environment:

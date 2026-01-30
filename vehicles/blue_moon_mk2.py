@@ -3,8 +3,8 @@ from dataclasses import dataclass, field
 from typing import Dict, Any, List
 import random
 
-from luna_ops.models.reliability import EngineFailureModel, BetaBernoulli
-from luna_ops.models.cryo import CryoTank
+from luna_facilities.models.reliability import EngineFailureModel, BetaBernoulli
+from luna_facilities.models.cryo import CryoTank
 from .base_vehicle import Vehicle, VehicleCommonState
 
 
